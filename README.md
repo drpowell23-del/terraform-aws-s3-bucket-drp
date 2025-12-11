@@ -7,7 +7,7 @@ A simple Terraform module for creating an S3 bucket.
 \`\`\`hcl
 module "s3_bucket" {
   source  = "app.terraform.io/YOUR-ORG/s3-bucket-drp/aws"
-  version = "1.0.0"
+  version = "1.1.0"
   
   bucket_name = "my-unique-bucket-name"
 }
